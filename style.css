@@ -206,6 +206,32 @@ header
     background-color: var(--text-color);
 }
 
+.code-notice
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin: 0.8em auto 0;
+    padding: 0.55em 1em;
+    width: fit-content;
+    border: 1px solid var(--general-color);
+    border-radius: 6px;
+    background-color: var(--background-bibtex);
+    color: var(--text-color);
+    font-size: 0.9em;
+}
+
+.code-notice strong
+{
+    color: var(--text-color);
+}
+
+.code-notice-icon
+{
+    font-size: 2em;
+}
+
 .video-grid
 {
     display: grid;
